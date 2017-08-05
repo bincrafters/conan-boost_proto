@@ -2,7 +2,7 @@
 
 [Conan.io](https://conan.io) package for [Boost.Proto](https://github.com/Boostorg/Proto) project
 
-The packages generated with this **conanfile** can be found in [Bintray](https://bintray.com/bincrafters/conan-public/Boost.Proto%3Abincrafters).
+The packages generated with this **conanfile** can be found in [Bintray](https://bintray.com/bincrafters/public-conan/Boost.Proto%3Abincrafters).
 
 ## For Users: Use this package
 
