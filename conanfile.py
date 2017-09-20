@@ -8,16 +8,16 @@ class BoostProtoConan(ConanFile):
     description = "Please visit http://www.boost.org/doc/libs/1_65_1/libs/libraries.htm"
     license = "www.boost.org/users/license.html"
     lib_short_names = ["proto"]
-    requires =  "Boost.Config/1.65.1@bincrafters/stable", \
-                      "Boost.Core/1.65.1@bincrafters/stable", \
-                      "Boost.Fusion/1.65.1@bincrafters/stable", \
-                      "Boost.Mpl/1.65.1@bincrafters/stable", \
-                      "Boost.Preprocessor/1.65.1@bincrafters/stable", \
-                      "Boost.Range/1.65.1@bincrafters/stable", \
-                      "Boost.Static_Assert/1.65.1@bincrafters/stable", \
-                      "Boost.Type_Traits/1.65.1@bincrafters/stable",\
-                      "Boost.Typeof/1.65.1@bincrafters/stable",\
-                      "Boost.Utility/1.65.1@bincrafters/stable"
+    requires =  "Boost.Config/1.65.1@bincrafters/testing", \
+                      "Boost.Core/1.65.1@bincrafters/testing", \
+                      "Boost.Fusion/1.65.1@bincrafters/testing", \
+                      "Boost.Mpl/1.65.1@bincrafters/testing", \
+                      "Boost.Preprocessor/1.65.1@bincrafters/testing", \
+                      "Boost.Range/1.65.1@bincrafters/testing", \
+                      "Boost.Static_Assert/1.65.1@bincrafters/testing", \
+                      "Boost.Type_Traits/1.65.1@bincrafters/testing",\
+                      "Boost.Typeof/1.65.1@bincrafters/testing",\
+                      "Boost.Utility/1.65.1@bincrafters/testing"
 
                       #config0 core2 fusion5 mpl5 preprocessor0 range7 static_assert1 type_traits3 typeof5 utility5
 
