@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostProtoConan(ConanFile):
     name = "boost_proto"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-proto"
+    url = "https://github.com/bincrafters/conan-boost_proto"
 
     lib_short_names = ["proto"]
     is_header_only = True
