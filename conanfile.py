@@ -8,7 +8,8 @@ class BoostProtoConan(ConanFile):
     name = "boost_proto"
     version = "1.66.0"
     url = "https://github.com/bincrafters/conan-boost_proto"
-
+    author = "Bincrafters <bincrafters@gmail.com>"
+    exports = ["LICENSE.md"]
     lib_short_names = ["proto"]
     is_header_only = True
 
