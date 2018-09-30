@@ -8,7 +8,7 @@ base = python_requires("boost_base/1.67.0@bincrafters/testing")
 
 class BoostProtoConan(base.BoostBaseConan):
     name = "boost_proto"
-    url = "https://github.com/bincrafters/conan-boost_proto
+    url = "https://github.com/bincrafters/conan-boost_proto"
     lib_short_names = ["proto"]
     header_only_libs = ["proto"]
     b2_requires = [
@@ -23,5 +23,3 @@ class BoostProtoConan(base.BoostBaseConan):
         "boost_typeof",
         "boost_utility"
     ]
-
-"
