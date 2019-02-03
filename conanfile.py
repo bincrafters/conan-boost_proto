@@ -8,6 +8,7 @@ base = python_requires("boost_base/1.69.0@bincrafters/stable")
 
 class BoostProtoConan(base.BoostBaseConan):
     name = "boost_proto"
+    version = "1.69.0"
     url = "https://github.com/bincrafters/conan-boost_proto"
     lib_short_names = ["proto"]
     header_only_libs = ["proto"]
